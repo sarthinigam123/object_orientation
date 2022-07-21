@@ -1,4 +1,4 @@
-package objects;
+package methods;
 
 public class PumpkinSoup {
     public PumpkinSoup(){

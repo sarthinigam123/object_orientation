@@ -1,15 +1,12 @@
 package objects;
 
 public class Point {
-    int radius;
+    int xcoordinate;
+    int ycoordinate;
     String colour;
 
-    public double getArea(){
-        return 3.14*radius*radius;
-    }
-
-    public double getCircumference(){
-        return 2*3.14*radius;
+    public void getCooridnates(){
+        System.out.println("x coordinate is " + xcoordinate + " and  y coordinate is " + ycoordinate);
     }
 
     public String getColour(){

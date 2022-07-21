@@ -1,4 +1,4 @@
-package objects;
+package encapsulation;
 
 public class Rectangle {
     private int length;
